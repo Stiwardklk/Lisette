@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Flor para Lisette</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to top, #ffffff, #cceeff);
+      background-image: url('https://www.transparenttextures.com/patterns/cloudy.png');
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 4em;
+      color: #e91e63;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .flor {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+
+    .petalo {
+      width: 150px;
+      height: 150px;
+      background: pink;
+      border-radius: 50%;
+      position: absolute;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+    }
+
+    .petalo1 { top: 0; left: 50px; }
+    .petalo2 { top: 50px; left: 0; }
+    .petalo3 { top: 50px; left: 100px; }
+    .petalo4 { top: 100px; left: 50px; }
+
+    .centro {
+      width: 100px;
+      height: 100px;
+      background: yellow;
+      border-radius: 50%;
+      position: absolute;
+      top: 75px;
+      left: 75px;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .tallo {
+      width: 20px;
+      height: 200px;
+      background: green;
+      margin: 0 auto;
+      margin-top: -30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+    }
+
+    .autor {
+      margin-top: 60px;
+      font-size: 1.5em;
+      font-family: 'Great Vibes', cursive;
+      color: #666;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <h1>Lisette</h1>
+
+  <div class="flor">
+    <div class="petalo petalo1"></div>
+    <div class="petalo petalo2"></div>
+    <div class="petalo petalo3"></div>
+    <div class="petalo petalo4"></div>
+    <div class="centro"></div>
+  </div>
+
+  <div class="tallo"></div>
+
+  <div class="autor">Autor: Davidi</div>
+</body>
+</html>
